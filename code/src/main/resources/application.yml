@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  redis:
+    database: 0
+    host:  134.175.130.172
+    password: lwh@13660161032
+    port: 6379
+    timeout: 0
+    jedis:
+      pool:
+        maxTotal: 8
+        maxIdle: 8
+        minIdle: 2
+        maxWaitMillis: 3000
